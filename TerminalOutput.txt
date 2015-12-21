@@ -1,0 +1,43 @@
+Chriss-MacBook-Pro:Cryptography chrismarsh$ g++ Crypter.cpp main.cpp -o executable
+Chriss-MacBook-Pro:Cryptography chrismarsh$ ./executable
+Welcome to my cryptography program!!
+Currently, this allows for encrypting a message by providing a password.
+Whatever you do, don't tell other people the password!
+Please select an item from the menu:
+1: Encrypt
+2: Decrypt
+3: Information on this program
+4: Help menu
+5: Quit Program
+e
+What is the message you wish to encrypt? 
+Enter 'from file' to open a file.
+HelloWorld
+What is your password? foobar
+
+Your scrambled message is ILVTHVNFON
+
+Do you wish to save it to a file? Y/N n
+Please select an item from the menu:
+1: Encrypt
+2: Decrypt
+3: Information on this program
+4: Help menu
+5: Quit Program
+d
+What is the message that you wish to decrypt?
+Enter 'from file' to open a file.
+ilvthvnfon
+What is your password? foobar
+
+Your unscrambled message is HELLOWORLD
+
+Would you like to save it to a file? Y/N n
+Please select an item from the menu:
+1: Encrypt
+2: Decrypt
+3: Information on this program
+4: Help menu
+5: Quit Program
+q
+Chriss-MacBook-Pro:Cryptography chrismarsh$ 
